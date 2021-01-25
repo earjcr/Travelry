@@ -1,0 +1,429 @@
+* {
+    box-sizing: border-box;
+    margin-left: 3px;
+    padding:0px;
+    }
+body {
+    width: 100%;
+    background-color: white;
+    font-family: Raleway;
+    }    
+nav {
+    width: 100%;
+    }
+section {
+    width: 100%;
+    }
+.rvmenu {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap-reverse;
+    position: relative;
+/*    top: -36px;*/
+    }
+.rvlogo {
+    position: absolute;
+    left: 0; 
+    top: 0;   
+    border: none;
+    width: 110px;
+    height: 36px;
+    background-color: white;
+    }
+.rvaccom {
+    color: #0065FC;
+    font-family: Helvetica;
+    font-size: 1rem;
+    line-height: 1.5;
+    width: 180px;
+    padding: 10px;
+    background-color: white;
+    border-color: blue white white white;
+    border-right: none;
+    border-bottom: none;
+    }
+.rvaccom:hover {
+    background-color: red;
+    }
+.rvactiv {
+    color: black;
+    font-family: Helvetica;
+    font-size: 1rem;
+    line-height: 1.5;
+    width: 180px;
+    padding: 10px;
+    background-color: white;
+    border-top-color: grey;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    }
+.rvactiv:hover {
+    background-color: red;
+    }
+.rvsignup {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    color: #0065FC;
+    background-color: white;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+    width: 110px;
+    height: 41px;
+    padding: 35px 0 0 0;
+
+}
+.rvsignup:hover {
+    background-color: red;
+    }
+h2  {
+    font-family: Raleway;
+    padding-top: 30px;
+    }
+h4 {
+    font-family: Raleway;
+    }
+/* body */
+/* h */
+
+.rvdest {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    }
+.mapmarker {
+    width: 40px;
+    border: 1px solid white;
+    line-height: 2.5;
+    align-items: center;
+    padding: 15px;
+    color: black;
+    background-color: f2f2;
+    border-radius: 10px 0 0 10px;
+    }
+.mapmarker:hover {
+    background-color: red;
+    }
+.rvwhere {
+    border: 1px solid white;
+    line-height: 2.5;
+    padding: 15px;
+    color: black;
+    background-color: white;
+    border-radius: 0px 0px 0px 0px;
+    }
+.rvwhere:hover {
+    background-color: red;
+    }
+.rvsearch {
+    border: 1px solid white;
+    line-height: 2.5;
+    padding: 15px;
+    color: white;
+    background-color: #0065FC;
+    border-radius: 0 10px 10px 0;
+    }
+.rvsearch:hover {
+    background-color: red;
+    }
+.rvfilters {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border: 15px solid F2F2;
+    font-family: Raleway;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: .5;
+    padding: 5px;
+    margin: 10px;
+    }
+.rvbill {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;;
+    justify-content: flex-start;
+    border: 1px solid grey#f2f2f2;
+    border-radius: 50px;
+    margin: 10px;
+    }
+.bill {
+    height: 50px;
+    width: 50px;
+    background-color: F2F2;
+    border-radius: 50px;
+    color: #0065FC
+    
+    }
+.rvbill:hover {
+    background-color: red;
+    }
+.lowcost {
+    line-height: 1;
+    font-size: 16;
+    margin: auto;
+    padding: 0px 10px;
+    background-color:white;
+    border-radius: 0 30px 30px 0;
+    }
+.lowcost:hover {
+    background-color: transparent;
+    }
+.rvstock {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;;
+    justify-content: flex-start;
+    margin: 10px;
+    }
+.info {
+    line-height: 2.5;
+    padding: 0px 14px;
+    background-color: F2F2;
+    border-color: blue;
+    border-radius: 30px;
+    margin: 10px;
+    }
+.info:hover {
+    background-color: red;
+    }
+.count {
+    font-family: Raleway;
+    font-size: 14px;
+    line-height: 2.5;
+    background-color:white;
+    }
+.checked {
+    color: #0065FC;
+    }
+.unchecked {
+    color: #f2f2f2;
+    }
+/* BODY    */
+.rvmedley {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    grid-gap: 10px;
+    }
+.rvactmedley {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 10px;
+    }
+.rvpop {
+    display: flex;
+    flex-direction: column;
+    font-family: Raleway;
+    justify-content: flex-start;
+    grid-gap: 12px;
+    align-content: center;
+    padding: 10px;
+    width: 375px;
+    background-color: #f2f2f2;
+    border-color: #f2f2f2;
+    }
+.rvwrap {
+    max-width: 1035px;
+    min-width: 375;
+    background-color: #f2f2f2;
+    }
+.rvacts {
+    max-width: 1400px;
+    min-width: 375;
+    }
+.rvcity {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    justify-content: space-around(14px);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #f2f2f2;
+    }
+.rvact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    justify-content: space-around(14px);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #f2f2f2;
+    }
+.poptitle {
+    background-color: #f2f2f2;
+    padding: 15px;
+    }
+.citytitle {
+    /*
+    width: 1420px;
+*/}
+.pops {
+    background-color: white;
+    border-radius: 15px;
+    }
+.citys {
+    background-color: white;
+    border-radius: 15px;
+    }
+.pops1a {
+    border-color: white;
+    border: none;
+    background-color: white;
+    border-radius: 15px;
+    }
+.pops1a:hover {
+    background-color: red;
+    }
+.citys1a {
+    border-color: white;
+    border: none;
+    background-color: white;
+    border-radius: 15px;
+    }
+.citys1a:hover {
+    background-color: red;
+    }
+.crop2 {
+    width: 120px; /* width of container */
+    height: 130px; /* height of container */
+    object-fit: cover;
+    float: left;
+    padding: 5px;
+    border-radius: 15px 0 0 15px;
+    }
+.crop3 {
+    width: 320px; /* width of container */
+    height:108px; /* height of container */
+    object-fit: cover;
+    object-position: 30% 50%; /* try 20px 10px */ 
+    float: inline-start;
+    padding: 5px;
+    border-radius: 15px 15px 0 0;
+    }
+    
+.crop4a {
+    width: 320px; /* width of container */
+    height:432px; /* height of container */
+    object-fit: cover;
+    object-position: 30% 50%; /* try 20px 10px */ 
+    float: inline-start;
+    padding: 5px;
+    border-radius: 15px 15px 0 0;
+    }
+.crop4b {
+    width: 320px; /* width of container */
+    height:216px; /* height of container */
+    object-fit: cover;
+    object-position: 30% 50%; /* try 20px 10px */ 
+    float: inline-start;
+    padding: 5px;
+    border-radius: 15px 15px 0 0;
+    }
+.crop4c {
+    width: 320px; /* width of container */
+    height:108px; /* height of container */
+    object-fit: cover;
+    object-position: 30% 50%; /* try 20px 10px */ 
+    float: inline-start;
+    padding: 5px;
+    border-radius: 15px 15px 0 0;
+    }
+.crop4d {
+    width: 320px; /* width of container */
+    height:432px; /* height of container */
+    object-fit: cover;
+    object-position: 30% 50%; /* try 20px 10px */ 
+    float: inline-start;
+    padding: 5px;
+    border-radius: 15px 15px 0 0;
+    }
+.crop4e {
+    width: 320px; /* width of container */
+    height:162px; /* height of container */
+    object-fit: cover;
+    object-position: 30% 50%; /* try 20px 10px */ 
+    float: inline-start;
+    padding: 5px;
+    border-radius: 15px 15px 0 0;
+    }
+.crop4f 
+    {
+    width: 320px; /* width of container */
+    height:162px; /* height of container */
+    object-fit: cover;
+    object-position: 30% 50%; /* try 20px 10px */ 
+    float: inline-start;
+    padding: 5px;
+    border-radius: 15px 15px 0 0;
+}
+        
+.pops1ab {
+display:inline-block;
+text-align: left;
+font-size: 18;
+width: 200px;
+margin: 5px;
+    }
+.pops2ab {
+    text-align: left;
+    font-size: 18px;
+    margin-left: 15px;
+    height: 5;
+    padding: 5px;
+    }
+.citys2ab {
+    text-align: left;
+    font-size: 1.2em;
+    margin-left: 0px;
+    height: 15;
+    padding: 5px;
+    border-radius: 0 0 15px 15px;
+    }
+.fa-star {
+    font-size: 10px;
+    }
+.city1a {
+    padding: 0px;
+    border: 1px;
+    border-radius: 20px;
+    }
+/* FOOTER  */
+.rvfoot {
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: center;
+    font-family: Raleway;
+    font-size: .6rem;
+    padding: 30px;
+    background-color: #f2f2f2;
+    }
+.rvfoot1 {
+    width: 400px;
+    height: 130px;
+    padding-right: 80px;
+    }
+.foot1a {
+    font-size: .8rem;
+    border: 0;
+    }
+.foot1a:hover {
+    background-color: red;
+    }
+@media only screen and (min-width: 320px) and (max-width: 1000px) {
+    .crop4a, .crop4b, .crop4c, .crop4d, .crop4e, .crop4f  {
+        width: 320px; /* width of container */
+        height:108px; /* height of container */
+        object-fit: cover;
+        object-position: 30% 50%; /* try 20px 10px */ 
+        float: inline-start;
+        padding: 5px;
+        border-radius: 15px 15px 0 0;
+     }
+}
