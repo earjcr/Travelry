@@ -11,11 +11,10 @@ body {
     }    
 nav {
     margin-left: 15px;
-    width: 100%;
     }
-section {
+/*section {
     width: 100%;
-    }
+    }*/
 .menu {
     display: flex;
     justify-content: center;
@@ -231,7 +230,7 @@ h4 {
     }
 .acctitle {
     padding: 5px;
-    width: 1420px;
+    width: 345px;
     }
 .acctiles {
     display: flex;
@@ -262,7 +261,7 @@ h4 {
     width: 320px; /* width of container */
     height:108px; /* height of container */
     object-fit: cover;
-    object-position: 30% 50%; /* try 20px 10px */ 
+    /* object-position: 30% 50%;  try 20px 10px */ 
     float: inline-start;
     padding: 5px;
     border-radius: 15px 15px 0 0;
@@ -389,7 +388,7 @@ a {
 
 /* crop3 was used in media query */
 .crop3 {
-    width: 120px; /* width of container */
+    width: 320px; /* width of container */
     height: 130px; /* height of container */
     object-fit: cover;
     float: left;
@@ -401,7 +400,7 @@ a {
     width: 320px; /* width of container */
     height:377px; /* height of container */
     object-fit: cover;
-    object-position: 30% 50%; /* try 20px 10px */ 
+    /*object-position: 30% 50%;  try 20px 10px */ 
     float: inline-start;
     padding: 5px;
     border-radius: 15px 15px 0 0;
@@ -410,7 +409,7 @@ a {
     width: 320px; /* width of container */
     height:216px; /* height of container */
     object-fit: cover;
-    object-position: 30% 50%; /* try 20px 10px */ 
+    /*object-position: 30% 50%;  try 20px 10px */ 
     float: inline-start;
     padding: 5px;
     border-radius: 15px 15px 0 0;
@@ -419,7 +418,7 @@ a {
     width: 320px; /* width of container */
     height:108px; /* height of container */
     object-fit: cover;
-    object-position: 30% 50%; /* try 20px 10px */ 
+    /*object-position: 30% 50%;  try 20px 10px */ 
     float: inline-start;
     padding: 5px;
     border-radius: 15px 15px 0 0;
@@ -428,7 +427,7 @@ a {
     width: 320px; /* width of container */
     height:377px; /* height of container */
     object-fit: cover;
-    object-position: 30% 50%; /* try 20px 10px */ 
+    /*object-position: 30% 50%;  try 20px 10px */ 
     float: inline-start;
     padding: 5px;
     border-radius: 15px 15px 0 0;
@@ -437,7 +436,7 @@ a {
     width: 320px; /* width of container */
     height:162px; /* height of container */
     object-fit: cover;
-    object-position: 30% 50%; /* try 20px 10px */ 
+    /*object-position: 30% 50%;  try 20px 10px */ 
     float: inline-start;
     padding: 5px;
     border-radius: 15px 15px 0 0;
@@ -447,7 +446,7 @@ a {
     width: 320px; /* width of container */
     height:162px; /* height of container */
     object-fit: cover;
-    object-position: 30% 50%; /* try 20px 10px */ 
+    /*object-position: 30% 50%; /* try 20px 10px */ 
     float: inline-start;
     padding: 5px;
     border-radius: 15px 15px 0 0;
@@ -479,7 +478,7 @@ a {
     background-color: #f2f2f2;
     }
 .rvfoot1 {
-    width: 400px;
+    width: 315px;
     height: 130px;
     padding-right: 80px;
     }
