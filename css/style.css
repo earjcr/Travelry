@@ -6,11 +6,12 @@
 body {
     width: 100%;
     background-color: white;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.2em;
     }    
 nav {
-    margin-left: 15px;
+    margin-left: 20px;
+    padding-top: 30px;
     }
 /*section {
     width: 100%;
@@ -29,7 +30,7 @@ nav {
         }
     }
 .logo {
-    margin: 20px 0px 20px 30px;
+    margin: 20px 0px 20px 21px;
     text-align: left;
     }
 .rvaccom {
@@ -103,23 +104,29 @@ h4 {
     justify-content: flex-start;
     }
 .mapmarker {
-    width: 40px;
+    width: 45px;
+    height: 55px;
     border: 1px solid white;
-    line-height: 2.5;
     font-size: 1em;
     align-items: center;
     padding: 15px;
     color: black;
     background-color: #f2f2f2;
-    border-radius: 10px 0 0 10px;
+    border-radius: 20px 0 0 20px;
     }
 .mapmarker:hover {
     background-color: red;
     }
-.whereto {
+.mapmarkerimg {
+    height: 18px;
+    width: 16px;
+    margin: -3px;
+}
+    .whereto {
     border: 1px solid white;
     font-size: 1em;
-    line-height: 2.5;
+    height: 55px;
+    width: 200px;
     padding: 15px;
     color: black;
     background-color: white;
@@ -131,11 +138,11 @@ h4 {
 .searchit {
     border: 1px solid white;
     font-size: 1em;
-    line-height: 2.5;
-    padding: 15px;
+    height: 55px;
+    padding: 15px 10px 15px 10px;
     color: white;
     background-color: #0065FC;
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 20px 20px 0;
     }
 .searchit:hover {
     background-color: red;
@@ -156,7 +163,7 @@ h4 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    border: 1px solid grey;
+    border: 3px solid #F2F2F2;
     border-radius: 50px;
     margin: 5px;
     }
@@ -166,6 +173,7 @@ h4 {
 .iconic {
     height: 50px;
     width: 50px;
+    margin: 1px;
     padding: 15px;
     background-color: #DEEBFF;
     border-radius: 50px;
@@ -192,12 +200,11 @@ h4 {
     }
 .iconici {
     height: 30px;
-    width: 30px;
-    margin: 5px;
-    padding: 3px 0 0 10px;
+    margin: 5px 3px;
+    padding: 5px 12px 29px 13px;
     background-color:white;
-    border-radius: 15px;
-    border: 1px solid #F2F2F2;
+    border-radius: 26px;
+    border: 3px solid #F2F2F2;
     color: #0065FC;
     }
 .banneri {
@@ -261,9 +268,9 @@ h4 {
     width: 320px; /* width of container */
     height:108px; /* height of container */
     object-fit: cover;
-    /* object-position: 30% 50%;  try 20px 10px */ 
+    object-position: 30% 60%; 
     float: inline-start;
-    padding: 5px;
+    padding: 5px 5px 0 5px;
     border-radius: 15px 15px 0 0;
     }
 .pops2ab {
@@ -271,7 +278,6 @@ h4 {
     font-size: 16px;
     margin-left: 15px;
     height: 65px;
-    padding: 5px;
     }
 /* Most popular hotels in Marseilles */
 .mostpop {
@@ -321,6 +327,7 @@ h4 {
     justify-content: center;
     text-align: left;
     font-size: .9em;
+    height: 120px;
     width: 200px;
     margin: 5px;
     }
@@ -400,7 +407,7 @@ a {
     width: 320px; /* width of container */
     height:377px; /* height of container */
     object-fit: cover;
-    /*object-position: 30% 50%;  try 20px 10px */ 
+    object-position: 30% 60%;  
     float: inline-start;
     padding: 5px;
     border-radius: 15px 15px 0 0;
@@ -409,7 +416,7 @@ a {
     width: 320px; /* width of container */
     height:216px; /* height of container */
     object-fit: cover;
-    /*object-position: 30% 50%;  try 20px 10px */ 
+    /*object-position: 30% 50%; */ 
     float: inline-start;
     padding: 5px;
     border-radius: 15px 15px 0 0;
@@ -418,7 +425,7 @@ a {
     width: 320px; /* width of container */
     height:108px; /* height of container */
     object-fit: cover;
-    /*object-position: 30% 50%;  try 20px 10px */ 
+    /*object-position: 30% 50%; */ 
     float: inline-start;
     padding: 5px;
     border-radius: 15px 15px 0 0;
@@ -427,7 +434,7 @@ a {
     width: 320px; /* width of container */
     height:377px; /* height of container */
     object-fit: cover;
-    /*object-position: 30% 50%;  try 20px 10px */ 
+    /*object-position: 30% 50%; */ 
     float: inline-start;
     padding: 5px;
     border-radius: 15px 15px 0 0;
@@ -436,7 +443,7 @@ a {
     width: 320px; /* width of container */
     height:162px; /* height of container */
     object-fit: cover;
-    /*object-position: 30% 50%;  try 20px 10px */ 
+    object-position: 20% 10%;
     float: inline-start;
     padding: 5px;
     border-radius: 15px 15px 0 0;
@@ -446,7 +453,7 @@ a {
     width: 320px; /* width of container */
     height:162px; /* height of container */
     object-fit: cover;
-    /*object-position: 30% 50%; /* try 20px 10px */ 
+    /*object-position: 30% 50%; */ 
     float: inline-start;
     padding: 5px;
     border-radius: 15px 15px 0 0;
