@@ -255,6 +255,7 @@ h4 {
     background-color: white;
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
+    height: 169px;
     }
 .pops2a:hover {
     background-color: red;
@@ -273,6 +274,7 @@ h4 {
     font-size: 16px;
     margin-left: 5px;
     height: 65px;
+    width: 320px;
     }
 /* Most popular hotels in Marseilles */
 .mostpop {
@@ -301,7 +303,7 @@ h4 {
     }
 .pops1a {
     display: inline-block;
-    grid-template-columns: 130 px 170px;
+    grid-template-columns: 130px 170px;
     justify-content: center;
     border-color: white;
     border: none;
@@ -364,18 +366,76 @@ h4 {
     background-color: white;
     border-radius: 15px;
     }
-.citys3a {
+.citys :hover {
+    background-color: red;
+    }
+.citys4a {
     border-color: white;
     border: none;
     background-color: white;
     border-radius: 10px;
     width: 320px;
+    height: 412px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
     }
-.citys :hover {
-    background-color: red;
+.citys4b {
+    border-color: white;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    width: 320px;
+    height: 251px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
     }
-.citys3ab {
+.citys4c {
+    border-color: white;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    width: 320px;
+    height: 143px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
+    }
+.citys4d {
+    border-color: white;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    width: 320px;
+    height: 412px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
+    }
+.citys4e {
+    border-color: white;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    width: 320px;
+    height: 197px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
+    }
+.citys4f {
+    border-color: white;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    width: 320px;
+    height: 197px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
+    }
+@media only screen and (max-width: 1374px) {
+    .citys4a, .citys4b, .citys4c, .citys4d, .citys4e, .citys4f  {
+        border-color: white;
+        border: none;
+        background-color: white;
+        border-radius: 10px;
+        width: 320px;
+        height: 143px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
+        }
+} 
+    
+    .citys3ab {
     text-align: left;
     font-size: 1em;
     margin-left: 0px;
