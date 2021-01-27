@@ -13,9 +13,6 @@ nav {
     margin-left: 20px;
     padding-top: 30px;
     }
-/*section {
-    width: 100%;
-    }*/
 .menu {
     display: flex;
     justify-content: center;
@@ -122,9 +119,9 @@ h4 {
     width: 16px;
     margin: -3px;
 }
-    .whereto {
+.whereto {
     border: 1px solid white;
-    font-size: 1em;
+    font-size: .8em;
     height: 55px;
     width: 200px;
     padding: 15px;
@@ -137,7 +134,7 @@ h4 {
     }
 .searchit {
     border: 1px solid white;
-    font-size: 1em;
+    font-size: .9em;
     height: 55px;
     padding: 15px 10px 15px 10px;
     color: white;
@@ -230,8 +227,7 @@ h4 {
     }
 /* Accommodations in Marseilles */
 .accoms {
-    padding: 25px;
-    max-width: 1060px;
+    padding: 20px;
     min-width: 345px;
     background-color: #f2f2f2;
     }
@@ -243,15 +239,14 @@ h4 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    grid-gap: 18px;
-    justify-content: left;
+    grid-gap: 10px;
+    justify-content: space-around;
     padding-top: 10px;
     padding-bottom: 20px;
     background-color: #f2f2f2;
     }
 .pops {
     background-color: white;
-    padding: 1px;
     border-radius: 15px;
     }
 .pops2a {
@@ -276,35 +271,38 @@ h4 {
 .pops2ab {
     text-align: left;
     font-size: 16px;
-    margin-left: 15px;
+    margin-left: 5px;
     height: 65px;
     }
 /* Most popular hotels in Marseilles */
 .mostpop {
-    display: flex;
-    flex-direction: column;
-    font-family: Raleway;
-    justify-content: flex-start;
-    grid-gap: 12px;
-    align-content: center;
-    padding: 20px;
-    width: 375px;
-    background-color: #f2f2f2;
-    border-color: #f2f2f2;
-    }
+    
+}
+
 .poptitle {
     background-color: #f2f2f2;
-    padding: 5px;
+    padding: 20px;
     }
 .floater {
     float: right;
 }
+.poptiles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 0 20px 0;
+    background-color: #f2f2f2;
+    border-color: #f2f2f2;
+    }
 .poptile {
     background-color: white;
-    padding: 1px;
     border-radius: 15px;
     }
 .pops1a {
+    display: inline-block;
+    grid-template-columns: 130 px 170px;
+    justify-content: center;
     border-color: white;
     border: none;
     background-color: white;
@@ -326,9 +324,9 @@ h4 {
     display:inline-block;
     justify-content: center;
     text-align: left;
-    font-size: .9em;
+    font-size: 16px;
     height: 120px;
-    width: 200px;
+    width: 170px;
     margin: 5px;
     }
 /* Activities flex box */
@@ -337,33 +335,30 @@ h4 {
     flex-wrap: wrap;
     grid-gap: 30px;
     }
+.acttitle {
+    min-width: 355px;
+    padding: 20px 0 20px 25px;
+    }
 .activs {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    flex-direction: row;
-    grid-gap: 15px;
-    justify-content: left;
+    grid-gap: 10px;
     justify-content: space-around;
-    padding: 25px;
-    background-color: white;
-    }
-@media only screen and (min-width: 700px) {
+    height: 500px;
+    margin-left: 1px;
+    padding-bottom: 20px;
+}
+@media only screen and (max-width: 1374px) {
     .activs {
-        display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
-        flex-direction: column;
-        max-height: 500px;
-        grid-gap: 15px;
-        justify-content: left;
+        grid-gap: 10px;
         justify-content: space-around;
+        height: auto;
+        justify-content: center;
         padding-bottom: 20px;
-        background-color: white;
         }
-        }
-.acttitle {
-    max-width: 1400px;
-    min-width: 355px;
-    padding: 20px;
     }
 .citys {
     background-color: white;
@@ -393,16 +388,7 @@ a {
     color: black;
 }
 
-/* crop3 was used in media query */
-.crop3 {
-    width: 320px; /* width of container */
-    height: 130px; /* height of container */
-    object-fit: cover;
-    float: left;
-    padding: 5px;
-    border-radius: 15px 0 0 15px;
-    }
-    
+/* crop3 was used in media query */       
 .crop4a {
     width: 320px; /* width of container */
     height:377px; /* height of container */
@@ -458,13 +444,7 @@ a {
     padding: 5px;
     border-radius: 15px 15px 0 0;
 }
-        
-.city1a {
-    padding: 0px;
-    border: 1px;
-    border-radius: 20px;
-    }
-@media only screen and (min-width: 320px) and (max-width: 1200px) {
+@media only screen and (max-width: 1374px) {
     .crop4a, .crop4b, .crop4c, .crop4d, .crop4e, .crop4f  {
         width: 320px; /* width of container */
         height:108px; /* height of container */
@@ -474,25 +454,41 @@ a {
         border-radius: 15px 15px 0 0;
     }
 } 
+.crop3 {
+    width: 320px; /* width of container */
+    height: 130px; /* height of container */
+    object-fit: cover;
+    float: left;
+    padding: 5px;
+    border-radius: 15px 0 0 15px;
+    }
+        
+.city1a {
+    padding: 0px;
+    border: 1px;
+    border-radius: 20px;
+    }
 /* FOOTER  */
-.rvfoot {
+.footer {
     display: flex; 
     flex-flow: row wrap;
     justify-content: center;
+    justify-content: space-around;
     font-family: Raleway;
-    font-size: .6rem;
+    font-size: .8rem;
     padding: 30px 30px 0 30px;
     background-color: #f2f2f2;
     }
-.rvfoot1 {
+.footer1 {
     width: 315px;
     height: 130px;
     padding-right: 80px;
     }
-.foot1a {
-    font-size: .8rem;
+.footer1a {
+    grid-gap: 10px;
+    padding: 5px;
     border: 0;
     }
-.foot1a:hover {
+.footer1a:hover {
     background-color: red;
     }
