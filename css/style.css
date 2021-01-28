@@ -8,11 +8,14 @@ body {
     background-color: white;
     font-family: 'Raleway', sans-serif;
     font-size: 1.2em;
-    }    
+}    
 nav {
     margin-left: 20px;
     padding-top: 30px;
     }
+main {
+    padding: 5px;
+}
 .menu {
     display: flex;
     justify-content: center;
@@ -216,6 +219,7 @@ h4 {
     color: #f2f2f2;
     }
 /* BODY    */
+
 /* Accom & Most Pop flex box */
 .mostpopaccom {
     display: flex;
@@ -228,7 +232,7 @@ h4 {
     }
 /* Accommodations in Marseilles */
 .accoms {
-    padding: 20px;
+    padding: 10px;
     min-width: 345px;
     background-color: #f2f2f2;
     border-radius: 15px;
@@ -280,7 +284,7 @@ h4 {
     }
 /* Most popular hotels in Marseilles */
 .mostpop {
-    padding: 20px;
+    padding: 10px;
     min-width: 345px;
     background-color: #f2f2f2;
     border-radius: 15px;
@@ -288,7 +292,7 @@ h4 {
 .poptitle {
     background-color: #f2f2f2;
     padding: 5px;
-    width: 345px;
+    width: 300px;
 }
 .floater {
     float: right;
@@ -338,7 +342,7 @@ h4 {
     width: 170px;
     margin: 5px;
     }
-@media only screen and (min-width: 1406px) {
+@media only screen and (min-width: 1420px) {
     .mostpopaccom {
         flex-direction: row-reverse;
         }            
@@ -349,24 +353,39 @@ h4 {
         max-width: 355px;
         }
     .poptitle {
-        width: 5;
+        width: 5px;
         }
     }
 /* Activities flex box */
+/*
+.accoms {
+    padding: 20px;
+    min-width: 345px;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    }
+.acctitle {
+    padding: 5px;
+    width: 345px;
+    }
+*/
 .activinloc {
-    display: flex;
+    padding: 10px;
+    min-width: 345px;
+    /*display: flex;
     flex-wrap: wrap;
     grid-gap: 30px;
+    */
     }
 .acttitle {
-    min-width: 355px;
-    padding: 20px 0 20px 25px;
+    min-width: 310px;
+    padding: 20px;
     }
 .activs {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     grid-gap: 10px;
     height: 500px;
     margin-left: 1px;
@@ -454,7 +473,6 @@ h4 {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
         }
 } 
-    
 .citys3ab {
     text-align: left;
     font-size: 1em;
@@ -557,7 +575,7 @@ a {
     justify-content: space-between;
     font-family: Raleway;
     font-size: .8rem;
-    padding: 30px 30px 0 30px;
+    padding: 30px;
     background-color: #f2f2f2;
     }
 .footer1 {
